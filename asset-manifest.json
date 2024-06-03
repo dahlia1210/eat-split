@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/eat-split/static/css/main.6554b684.css",
+    "main.css": "/eat-split/static/css/main.2fc8f57f.css",
     "main.js": "/eat-split/static/js/main.91160b67.js",
     "static/media/Shabnam-FD.ttf": "/eat-split/static/media/Shabnam-FD.15cff6e632acb766caf2.ttf",
     "index.html": "/eat-split/index.html",
-    "main.6554b684.css.map": "/eat-split/static/css/main.6554b684.css.map",
+    "main.2fc8f57f.css.map": "/eat-split/static/css/main.2fc8f57f.css.map",
     "main.91160b67.js.map": "/eat-split/static/js/main.91160b67.js.map"
   },
   "entrypoints": [
-    "static/css/main.6554b684.css",
+    "static/css/main.2fc8f57f.css",
     "static/js/main.91160b67.js"
   ]
 }
