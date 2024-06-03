@@ -5,19 +5,19 @@ const initialFriends = [
   {
     id: 151379,
     name: "مینا",
-    image: "https://i.pravatar.cc/48?u=151379",
+    image: "https://i.pravatar.cc/100?u=151379",
     balance: -7,
   },
   {
     id: 905342,
     name: "مریم",
-    image: "https://i.pravatar.cc/48?u=905342",
+    image: "https://i.pravatar.cc/100?u=905342",
     balance: 20,
   },
   {
     id: 478776,
     name: "زهرا",
-    image: "https://i.pravatar.cc/48?u=478776",
+    image: "https://i.pravatar.cc/100?u=478776",
     balance: 0,
   },
 ];
@@ -119,7 +119,7 @@ function Friend({ friend, onSelection, selectedFriend }) {
 
 function FormAddFriend({ onAddFriend }) {
   const [name, setName] = useState("");
-  const [image, setImage] = useState("https://i.pravatar.cc/48");
+  const [image, setImage] = useState("https://i.pravatar.cc/100");
   function handleSubmit(e) {
     e.preventDefault();
     if (!name || !image) return;
@@ -132,7 +132,7 @@ function FormAddFriend({ onAddFriend }) {
     };
     onAddFriend(newFriend);
     setName("");
-    setImage("https://i.pravatar.cc/48");
+    setImage("https://i.pravatar.cc/100");
   }
   return (
     <form className="form-add-friend" onSubmit={handleSubmit}>
