@@ -151,4 +151,7 @@ form h2 {
   .App {
     grid-template-columns: auto;
   }
+  .form-split-bill {
+    padding: 1.2rem 1rem;
+  }
 }
