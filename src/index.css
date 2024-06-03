@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Shabnam-FD';
-  src: local('Shabnam-FD'), url('./fonts/Shabnam-FD.ttf') format('truetype');
-} 
+  font-family: "Shabnam-FD";
+  src: local("Shabnam-FD"), url("./fonts/Shabnam-FD.ttf") format("truetype");
+}
 body {
   margin: 0;
-  font-family: 'Shabnam-FD', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Shabnam-FD", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -28,4 +28,3 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
